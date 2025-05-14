@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Menu{
+    height: 60px;
+    width: 100vw;
+    background-color: teal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: auto;
+    right: auto;
+}
+.Menu h1{
+padding: 10px;
+cursor: pointer;
+color: white;
+}
+.content{
+    height: 600px;
+    border: 3px solid purple;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px;
+
+}
+.a{
+    color: blue;
+    background-color: yellow;
+    font-size: 30px;
+
+}
+.b{
+    color: green;
+    background-color: blue;
+    font-size: 40px;
+}
+.c{
+    color:lightskyblue;
+    background-color: orangered;
+    font-size: 30px;
+}
+.add-button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.just-button{
+    height:100px;
+    width: 100px;
+    border-radius:50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.yes-button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: bottom;
+    bottom: 20px;
+    right: 20px;
+}
